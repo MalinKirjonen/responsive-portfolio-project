@@ -42,9 +42,9 @@ p {
 
 .btn-branding {
   background: #ffffff;
-  border-radius: 4px;
-  color: 1b1b1b;
+  border-radius: 50px;
+  color: #1b1b1b;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 18px, 30px, 18px, 30px;
 }
