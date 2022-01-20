@@ -6,11 +6,19 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-color: #1b1b1b;
+}
+
+body {
+  background: #e5e5e5;
+}
 h1,
 h2,
 h3,
 h4 {
-  color: #ffffff;
+  color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
@@ -21,12 +29,13 @@ h1 {
 p {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #ffffff;
+  color: var(--primary-text-color);
 }
 
 .hero {
   background: #1b1b1b;
   text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -41,10 +50,10 @@ p {
 }
 
 .btn-branding {
-  background: #ffffff;
+  background: var(--primary-text-color);
   border-radius: 50px;
   color: #1b1b1b;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 27px;
   padding: 18px, 30px, 18px, 30px;
 }
