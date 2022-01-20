@@ -1,19 +1,18 @@
 /*
-font-family: "Playfair Display", serif;
-font-family: "Poppins", sans-serif;
+font-family: 'Ceviche One', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
 
 h1 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
-}
-
-.fab {
-  color: black;
 }
