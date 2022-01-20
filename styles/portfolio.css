@@ -8,36 +8,30 @@ font-family: 'Roboto', sans-serif;
 
 :root {
   --primary-text-color: #ffffff;
-  --primary-font-family: font-family: "Roboto", sans-serif;
-  --link-font-family: 'Montserrat', sans-serif;
+  --primary-font-family: "Roboto", sans-serif;
+  --link-font-family: "Montserrat", sans-serif;
+  --background-color: #1b1b1b;
 }
 
 body {
   background: #e5e5e5;
-}
-h1,
-h2,
-h3,
-h4 {
-  color: var(--primary-text-color);
   font-family: var(--primary-font-family);
-  font-weight: bold;
+  color: var(--primary-text-color);
 }
 
 h1 {
   font-size: 72px;
+  font-weight: bold;
 }
 p {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: var(--primary-text-color);
 }
-a{
-    font-family: var(--link-font-family);
+a {
+  font-family: var(--link-font-family);
 }
 
 .hero {
-  background: #1b1b1b;
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -56,7 +50,7 @@ a{
 .btn-branding {
   background: var(--primary-text-color);
   border-radius: 50px;
-  color: #1b1b1b;
+  color: #272142;
   font-size: 14px;
   line-height: 27px;
   padding: 18px, 30px, 18px, 30px;
