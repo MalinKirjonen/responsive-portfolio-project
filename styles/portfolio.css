@@ -23,6 +23,9 @@ h1 {
   font-size: 72px;
   font-weight: bold;
 }
+h2 {
+  font-sixe: 18px;
+}
 p {
   font-weight: normal;
 }
@@ -58,4 +61,20 @@ a {
 .second-phase {
   background-color: var(--background-color);
   padding: 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 100px 10px;
+  }
+}
+
+.second-phase {
+  padding: 50px;
 }
