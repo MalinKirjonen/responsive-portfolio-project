@@ -60,7 +60,7 @@ a {
 
 .second-phase {
   background-color: var(--background-color);
-  padding: 100px;
+  padding: 50px 20px;
 }
 
 @media (max-width: 576px) {
@@ -73,8 +73,7 @@ a {
     text-align: center;
     padding: 100px 10px;
   }
-}
-
-.second-phase {
-  padding: 0;
+  .second-phase {
+    padding: 0;
+  }
 }
