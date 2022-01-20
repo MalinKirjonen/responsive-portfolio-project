@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background: #e5e5e5;
+  background: #202020;
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
 }
@@ -31,7 +31,6 @@ a {
 }
 
 .hero {
-  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -54,4 +53,9 @@ a {
   font-size: 14px;
   line-height: 27px;
   padding: 18px, 30px, 18px, 30px;
+}
+
+.second-phase {
+  background-color: var(--background-color);
+  padding: 100px;
 }
