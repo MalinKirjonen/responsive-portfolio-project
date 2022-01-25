@@ -118,35 +118,21 @@ a {
 }
 
 @media (max-width: 750px) {
-  .about-second-section {
-    margin: 10px;
-  }
   .about-hero {
     padding: 0;
+    text-align: center;
   }
   .about-hero h1 {
     font-size: 30px;
-    text-align: center;
   }
   .about-hero p {
     font-size: 12px;
-    text-align: center;
-  }
-
-  .about-hero img {
-    max-width: 80%;
-  }
-  .about-me-links {
-    text-align: center;
   }
 
   .icons-about-me-page {
     justify-content: center;
   }
 
-  .about-contact-me-link {
-    text-align: center;
-  }
   .center {
     display: block;
     margin-left: auto;
