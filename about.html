@@ -36,16 +36,21 @@
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
   </head>
+
   <body>
-    <div class="container p-5 about-hero">
+    <div class="container about-hero">
       <div class="row">
-        <div class="col-sm-6">
-          <img src="gallery/IMG_8087.jpg" class="img-marcus img-fluid" />
+        <div class="col-6 d-none d-md-block">
+          <img
+            src="gallery/IMG_8087.jpg"
+            alt=""
+            class="img-marcus img-fluid rounded"
+          />
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="about-me-links text-left mt-2">ABOUT ME</div>
           <h1 class="about-marcus text-left">Marcus Turula</h1>
-          <p>
+          <p class="p-about-marcus">
             Marcus passion for skydiving and flying is bursting out of stoke and
             it is hard to miss. His journey started already back in 2012 at
             Skydive Skåne. 2015 he left to America to become a tandem instructor
@@ -60,9 +65,19 @@
             <i class="fab fa-twitter-square ms-2"></i>
           </div>
 
-          <div class="btn btn-branding mt-5">CONTACT ME</div>
+          <div class="about-contact-me-link">
+            <div class="btn btn-branding mt-5">CONTACT ME</div>
+          </div>
         </div>
       </div>
+    </div>
+
+    <div class="container about-second-section d-md-none d-md-block">
+      <img
+        src="gallery/marcusheadshot2.jpeg"
+        alt=""
+        class="about-marcus-lower-image img-fluid rounded center"
+      />
     </div>
   </body>
 </html>
