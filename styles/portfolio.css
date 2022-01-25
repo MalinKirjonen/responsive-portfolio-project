@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background: #202020;
+  background: #1b1b1b;
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
 }
@@ -35,6 +35,11 @@ a {
 
 .hero {
   text-align: center;
+}
+
+.hero-background-image {
+  background-image: url("../../gallery/marcusheadshot3.jpg");
+  background-position: center;
   padding: 160px 20px;
 }
 
@@ -62,6 +67,28 @@ a {
 .second-phase {
   background-color: var(--background-color);
   padding: 50px 20px;
+}
+
+.about-hero {
+  margin: 100px;
+  background: var(--background-color);
+  padding: 160px 20px;
+}
+
+.about-me-links {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f65282;
+  font-weight: bold;
+}
+
+.about-marcus {
+  line-height: 3;
+}
+
+.icons-about-me-page:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
