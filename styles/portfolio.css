@@ -24,7 +24,7 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-sixe: 18px;
+  font-size: 18px;
 }
 p {
   font-weight: normal;
@@ -85,7 +85,7 @@ a {
   font-weight: bold;
 }
 
-.about-marcus {
+.about.hero h1 {
   font-size: 64px;
   padding: 30px 0px 30px 0px;
 }
@@ -99,12 +99,41 @@ a {
   cursor: pointer;
 }
 
+.coaching-hero h1 {
+  font-size: 64px;
+  padding: 30px 0px 30px 0px;
+}
+
+.coaching-style-container h3 {
+  font-size: 24px;
+  color: #f65282;
+}
+
+.dynamic-list {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.dynamic-list p {
+  font-size: 14px;
+}
+
+.list-wrap {
+  margin-right: 30px;
+}
+
+.col-coaching {
+  background: #212121;
+}
+
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 30px;
     line-height: 2;
   }
-
+  p {
+    font-size: 12px;
+  }
   .hero {
     text-align: center;
     padding: 80px 10px;
@@ -115,18 +144,10 @@ a {
     padding-right: 0;
     padding-bottom: 20px;
   }
-}
 
-@media (max-width: 750px) {
   .about-hero {
     padding: 0;
     text-align: center;
-  }
-  .about-hero h1 {
-    font-size: 30px;
-  }
-  .about-hero p {
-    font-size: 12px;
   }
 
   .icons-about-me-page {
@@ -138,5 +159,15 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+  }
+
+  .coaching-style-container h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .dynamic-list {
+    line-height: 1;
+    text-align: center;
   }
 }
