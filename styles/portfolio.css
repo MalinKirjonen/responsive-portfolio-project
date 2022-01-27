@@ -34,6 +34,17 @@ a {
   font-family: var(--link-font-family);
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #f65282;
+}
 .hero {
   text-align: center;
 }
@@ -115,7 +126,6 @@ a {
 
 .dynamic-list {
   margin-top: 50px;
-  list-style: none;
 }
 
 .dynamic-list p {
@@ -128,6 +138,22 @@ a {
 
 .col-coaching {
   background: #212121;
+}
+
+.contact-list {
+  padding: 100px;
+}
+.contact-list h3 {
+  color: #f65282;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+.contact-list p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 576px) {
@@ -173,5 +199,9 @@ a {
   .dynamic-list {
     line-height: 1;
     text-align: center;
+  }
+
+  .contact-list {
+    padding: 30px;
   }
 }
