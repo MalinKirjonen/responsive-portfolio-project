@@ -65,6 +65,10 @@ a {
   padding: 18px, 30px, 18px, 30px;
 }
 
+.hero-content {
+  color: #f65282;
+}
+
 .second-phase {
   background-color: var(--background-color);
   padding: 50px 20px;
