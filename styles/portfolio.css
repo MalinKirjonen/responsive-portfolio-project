@@ -45,6 +45,20 @@ a {
 a:hover {
   color: #f65282;
 }
+
+nav a {
+  color: #ffffff !important;
+}
+nav a:hover {
+  color: #f65282 !important;
+}
+nav .active {
+  color: #f65282 !important;
+}
+
+.nav-link {
+  padding: 0 10px !important;
+}
 .hero {
   text-align: center;
 }
@@ -52,7 +66,7 @@ a:hover {
 .hero-background-image {
   background-image: url("../../gallery/marcusheadshot3.jpg");
   background-position: center;
-  padding: 160px 20px;
+  padding: 160px 0px;
 }
 
 .hero p {
@@ -65,6 +79,7 @@ a:hover {
 .hero h2 {
   font-weight: normal;
   line-height: 2;
+  margin-top: 200px;
 }
 
 .btn-branding {
@@ -76,12 +91,12 @@ a:hover {
   padding: 18px, 30px, 18px, 30px;
 }
 
-.second-phase {
+.hero-content {
   background-color: var(--background-color);
   padding: 50px 20px;
 }
 
-.second-phase h2 {
+.hero-content h2 {
   color: #f65282;
   font-weight: bold;
   font-size: 24px;
@@ -89,7 +104,7 @@ a:hover {
 
 .about-hero {
   background: var(--background-color);
-  padding: 100px 20px;
+  padding: 50px 20px;
   line-height: 80px;
   margin: 30px;
 }
@@ -115,10 +130,8 @@ a:hover {
 .icons-about-me-page:hover {
   cursor: pointer;
 }
-
-.coaching-hero h1 {
-  font-size: 64px;
-  padding: 30px 0px 30px 0px;
+.coaching-hero {
+  padding: 90px 0;
 }
 
 .coaching-style-container h3 {
@@ -143,7 +156,7 @@ a:hover {
 }
 
 .contact-list {
-  padding: 100px;
+  padding: 50px;
 }
 .contact-list h3 {
   color: #f65282;
@@ -158,36 +171,21 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.logo {
-  max-height: 30px;
-}
-nav {
-  padding: 25px 0;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
+.contact-hero {
+  padding: 90px 0px;
 }
 
-nav li {
-  display: inline;
-  line-height: 42px;
-  margin: 15px;
-}
-nav a {
+.book-button {
+  color: black;
   text-decoration: none;
-  transition: all 100ms ease-in-out;
 }
-nav a:hover {
+.book-button:hover {
   color: #f65282;
-}
-nav li.active a {
-  color: #c92654;
 }
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 30px;
+    font-size: 50px;
     line-height: 2;
   }
   p {
@@ -195,13 +193,7 @@ nav li.active a {
   }
   .hero {
     text-align: center;
-    padding: 80px 10px;
-  }
-  .second-phase {
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
+    padding: 80px 5px 30px;
   }
 
   .about-hero {
@@ -232,5 +224,9 @@ nav li.active a {
 
   .contact-list {
     padding: 30px;
+  }
+
+  .hero-content {
+    padding-top: 0;
   }
 }
