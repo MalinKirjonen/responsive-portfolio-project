@@ -76,13 +76,15 @@ a:hover {
   padding: 18px, 30px, 18px, 30px;
 }
 
-.hero-content {
-  color: #f65282;
-}
-
 .second-phase {
   background-color: var(--background-color);
   padding: 50px 20px;
+}
+
+.second-phase h2 {
+  color: #f65282;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .about-hero {
@@ -154,6 +156,33 @@ a:hover {
   line-height: 30px;
   font-weight: normal;
   margin-bottom: 50px;
+}
+
+.logo {
+  max-height: 30px;
+}
+nav {
+  padding: 25px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  margin: 15px;
+}
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: #f65282;
+}
+nav li.active a {
+  color: #c92654;
 }
 
 @media (max-width: 576px) {
