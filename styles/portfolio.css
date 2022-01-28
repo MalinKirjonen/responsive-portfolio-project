@@ -56,6 +56,11 @@ nav .active {
   color: #f65282 !important;
 }
 
+.img-marcus {
+  max-height: 100%;
+  margin: 0 auto;
+  display: block;
+}
 .nav-link {
   padding: 0 10px !important;
 }
@@ -104,9 +109,9 @@ nav .active {
 
 .about-hero {
   background: var(--background-color);
-  padding: 50px 20px;
+  padding: 70px 20px;
   line-height: 80px;
-  margin: 30px;
+  margin: 0 auto;
 }
 
 .about-me-links {
