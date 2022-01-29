@@ -132,13 +132,18 @@ nav .active {
   line-height: 30px;
   font-size: 14px;
 }
+.about-contact-me-link a,
+.book-button {
+  color: #272142;
+  text-decoration: none;
+}
 
 .icons-about-me-page:hover {
   cursor: pointer;
 }
 .coaching-hero,
 .contact-hero {
-  padding: 30px 0;
+  padding: 30px 0px 5px 0px;
 }
 
 .coaching-style-container h3 {
@@ -159,7 +164,18 @@ nav .active {
 }
 
 .col-coaching {
-  background: #212121;
+  background: #282323;
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.windtunnel-img img,
+.skydive-img img {
+  max-height: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .contact-list {
@@ -178,10 +194,6 @@ nav .active {
   margin-bottom: 50px;
 }
 
-.book-button {
-  color: black;
-  text-decoration: none;
-}
 .book-button:hover {
   color: #f65282;
 }
@@ -269,5 +281,9 @@ footer .open-source-link {
 
   .hero-content {
     padding-top: 0;
+  }
+
+  .coaching-style-container {
+    padding: 0px 50px 0px 50px;
   }
 }
