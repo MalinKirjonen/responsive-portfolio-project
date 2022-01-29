@@ -286,4 +286,9 @@ footer .open-source-link {
   .hero-background-image {
     background-repeat: no-repeat;
   }
+  .logo-small {
+    max-height: 30px;
+
+    border-radius: 50px;
+  }
 }
