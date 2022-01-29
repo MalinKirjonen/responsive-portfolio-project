@@ -17,6 +17,7 @@ body {
   background: #1b1b1b;
   font-family: var(--primary-font-family);
   color: var(--primary-text-color);
+  margin-top: 50px;
 }
 
 h1 {
@@ -71,7 +72,7 @@ nav .active {
 .hero-background-image {
   background-image: url("../../gallery/marcusheadshot3.jpg");
   background-position: center;
-  padding: 160px 0px;
+  padding: 140px 0px;
 }
 
 .hero p {
@@ -109,7 +110,7 @@ nav .active {
 
 .about-hero {
   background: var(--background-color);
-  padding: 70px 20px;
+  padding: 50px 20px;
   line-height: 80px;
   margin: 0 auto;
 }
@@ -135,8 +136,9 @@ nav .active {
 .icons-about-me-page:hover {
   cursor: pointer;
 }
-.coaching-hero {
-  padding: 90px 0;
+.coaching-hero,
+.contact-hero {
+  padding: 30px 0;
 }
 
 .coaching-style-container h3 {
@@ -176,10 +178,6 @@ nav .active {
   margin-bottom: 50px;
 }
 
-.contact-hero {
-  padding: 90px 0px;
-}
-
 .book-button {
   color: black;
   text-decoration: none;
@@ -188,7 +186,36 @@ nav .active {
   color: #f65282;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px;
+  background-color: #282323;
+}
+
+footer .open-source-link {
+  text-decoration: none;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.footer-contact-page {
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+.footer-logo {
+  max-height: 20px;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+.social-links {
+  font-size: 16px;
+}
+
 @media (max-width: 576px) {
+  body {
+    margin-top: 0px;
+  }
   h1 {
     font-size: 50px;
     line-height: 2;
@@ -196,9 +223,18 @@ nav .active {
   p {
     font-size: 12px;
   }
+
+  footer {
+    padding: 15px 10px 15px;
+  }
+  footer .open-source-link {
+    font-size: 12px;
+    text-align: center;
+  }
+
   .hero {
     text-align: center;
-    padding: 80px 5px 30px;
+    padding: 40px 5px 30px;
   }
 
   .about-hero {
