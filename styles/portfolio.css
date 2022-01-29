@@ -226,7 +226,7 @@ footer .open-source-link {
 
 @media (max-width: 576px) {
   body {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   h1 {
     font-size: 50px;
@@ -250,7 +250,7 @@ footer .open-source-link {
   }
 
   .about-hero {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
     text-align: center;
   }
 
@@ -281,5 +281,9 @@ footer .open-source-link {
 
   .hero-content {
     padding-top: 0;
+  }
+
+  .hero-background-image {
+    background-repeat: no-repeat;
   }
 }
